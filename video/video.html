@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+    <link rel="stylesheet" href="video.css">
+</head>
+<body>
+    <!-- preloader gif -->
+    <div class="preloader">
+        <img src="preloader.gif" alt="preloader" class="preloader__item" />
+      </div>
+    <!-- header -->
+    <header>
+        <video class="video-container" autoplay loop>
+            <source src="./video.mp4" type="video/mp4" />
+        </video>
+        <h1>Video project</h1>
+        <!-- video control button -->
+        <button class="switch-btn">
+            <span>paly</span>
+            <span>pause</span>
+            <span class="switch"></span>
+        </button>
+    </header>
+    
+    <!-- js -->
+    <script src="video.js"></script>
+</body>
+</html>
