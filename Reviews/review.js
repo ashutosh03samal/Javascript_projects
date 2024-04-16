@@ -82,3 +82,11 @@ const reviews = [
     currentItem = Math.floor(Math.random() * reviews.length);
     showPerson(currentItem);
   });
+
+  setInterval(()=>{
+    currentItem++;
+    if (currentItem > reviews.length - 1) {
+      currentItem = 0;
+    }
+    showPerson(currentItem);
+  },2000)
